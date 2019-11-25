@@ -26,6 +26,7 @@ body{
     position: fixed;
     bottom: 0vw;
     z-index: 2; 
+    left: 0;
 }
 .montana{
     left: 0vw;
