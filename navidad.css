@@ -1,0 +1,298 @@
+body{
+    background-color:skyblue;
+}
+.texto{
+    position:absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: red;
+    font-size: 4vw;
+    animation-name: textito;
+    z-index: 6;
+    transition: 8s ease-in-out;
+}
+@keyframes textito{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform:translate(125vw,55vw);
+    }
+}
+.nieve{
+    height:11.9vw;
+    width: 100%;
+    background-color:  snow;
+    position: fixed;
+    bottom: 0vw;
+    z-index: 2; 
+}
+.montana{
+    left: 0vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana1{
+    left:25vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana2{
+    left:50vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana3{
+    left: 75vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana4{
+    left: 12.5vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana5{
+    left: 37.5vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana6{
+    left: 57.5vw;
+    position: absolute;
+    bottom: 8.3vw;
+    z-index: 3;
+}
+.montana img{
+    width: 15vw;
+    height: auto;
+}
+.montana1 img{
+     width: 15vw;
+    height: auto;
+}
+.montana2 img{
+     width: 15vw;
+    height: auto;
+}
+.montana3 img{
+     width: 15vw;
+    height: auto;
+}
+.montana4 img{
+     width: 15vw;
+    height: auto;
+}
+.montana5 img{
+     width: 15vw;
+    height: auto;
+}
+.montana6 img{
+     width: 15vw;
+    height: auto;
+}
+.casita{
+    left: 69vw;
+    bottom: 2vw;  
+    position: absolute;
+    z-index: 4;
+}
+.casita img{
+    width: 25vw;
+    z-index: 4;
+}
+.arbolito{
+    left:80vw;
+    bottom:11.5vw ;  
+    position: absolute;
+    z-index: 3;  
+}
+.arbolito img{
+    width: 7vw;
+}
+.luna{
+    top: 7%;
+    left: 95%;
+    position: absolute;
+    z-index: 2;
+}
+.luna img{
+    width: 5vw;
+}
+.copos{
+    height: 1vw;
+    width: 1vw;
+    position: absolute;
+    background-image: url(copos.png);
+}
+.nube1 {
+    left: 1vw;
+    bottom: 30vw;
+    position: absolute;
+    z-index: 3;
+}
+.nube2 {
+    left: 20vw;
+    bottom: 31vw;
+    position: absolute;
+    z-index: 3;
+}
+.nube3 {
+    left: 35vw;
+    bottom: 29vw;
+    position: absolute;
+    z-index: 3;
+}
+.nube4 {
+    left: 50vw;
+    bottom: 30vw;
+    position: absolute;
+    z-index: 3;
+}
+.nube5 {
+    left: 75vw;
+    bottom: 25vw;
+    position: absolute;
+    z-index: 2;
+}
+.nube1 img{
+    height: auto;
+    width: 20vw;
+}
+.nube2 img{
+    height: auto;
+    width: 22vw;
+}
+.nube3 img{
+    height: auto;
+     width: 25vw;
+}
+.nube4 img{
+    height: auto;
+    width: 22vw;
+}
+.nube5 img{
+    height: auto;
+     width: 20vw;
+}
+.snow{
+    position: absolute;
+    background-color: snow;
+    bottom: 36.5vw;
+    border-radius: 5vw;
+    animation-name: snowing;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: 100%;
+}
+.snow-flake1{
+    left: 10%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 2s;
+}
+.snow-flake2{
+    left:30%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 2s;
+}
+.snow-flake3{
+    left: 40%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 3s;
+}
+.snow-flake4{
+    left: 35%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 3.5s;
+}
+.snow-flake5{
+    left:60%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 2.5s;
+}
+.snow-flake6{
+    left:70%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 2s;
+}
+.snow-flake7{
+    left:85%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 4s;
+}
+.snow-flake8{
+    left:5%;
+    height:1vw;
+    width: 1vw;
+   animation-duration: 3.5s;
+}
+.snow-flake9{
+    left:90%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 2s;
+}
+.snow-flake10{
+    left:65%;
+    height:1vw;
+    width: 1vw;
+    animation-duration: 2.5s;
+}
+
+@keyframes snowing{
+    100%{
+        bottom: 1vw;
+        opacity: 0.4;
+    }
+}
+.autor{
+    position:absolute;
+    top: 0.5%;
+    right: 2vw;
+    color: black;
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+img.santa {
+    width: 20%;
+    position: fixed;;
+    left: 0;
+    bottom: 20;
+    z-index: 5;
+    animation: ease-in-out;
+    animation-name: papaN;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+     @keyframes papaN {
+        0% {
+            bottom: 1vw;
+        }
+        100% {           
+            bottom: 1vw;
+            left: 53vw;
+        }
+    }
+.audio{
+    position: absolute;
+    right: 1vw;
+    top: 5%;
+    width: 10%;
+}
